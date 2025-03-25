@@ -7,6 +7,7 @@ export default function Home(){
     return (
         <div>
             <div id="name">Your name : {name} </div>
+            {/* comment */}
             <Header/>
             <Main/>
             <Footer/>
