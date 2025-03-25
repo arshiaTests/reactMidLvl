@@ -1,5 +1,14 @@
-export function Home (){
+import Header from "./components/layouts/Header.jsx"
+import Main from "./components/home/Main.jsx"
+import Footer from "./components/layouts/Footer.jsx"
+
+export default function Home(){
     return (
-        <h1>Hello first</h1>
+        <div>
+            <Header/>
+            <Main/>
+            <Footer/>
+          
+        </div>
     )
-}
+} 
