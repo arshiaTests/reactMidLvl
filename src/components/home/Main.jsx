@@ -4,11 +4,12 @@ import { useState } from "react"
 export default function Main(){
     let heading = [
         "hello rocket",
-      " the wheater is good",
+      "the wheater is good"
     ]
+    const headings = heading.map((item) => <span>{item}</span>)
     return(
         <div>
-            {heading}
+            {headings}
         </div>
     )
 }
