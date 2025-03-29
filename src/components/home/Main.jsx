@@ -6,11 +6,13 @@ export default function Main(){
         "hello rocket",
       "the wheater is good"
     ]
+    
     const headings = heading.map((item) => <span>{item}</span>)
     return(
         <div>
             {headings}
         </div>
+        
     )
 }
 
